@@ -1,2 +1,2 @@
 # spe_mini_project
-Calculator using Devops
+Scientific Calculator using Devops
