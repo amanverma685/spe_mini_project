@@ -3,7 +3,7 @@ pipeline{
     environment{
 	    registry="docker685/docker_repo_spe"
 	    registryCredential="[;,$j8q_xAR6YVw"
-	    dockerImage="spe_mini_proj_scientific_calc:latest"
+	    dockerImage=""
 	}
 
 	agent any
