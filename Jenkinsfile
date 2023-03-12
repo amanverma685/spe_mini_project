@@ -23,22 +23,22 @@ pipeline{
             	sh "mvn clean install"
             }
         }
-        stage('Build') {
+        stage('Build Docker Image') {
               steps {
                 sh 'docker build -t docker685/jenkins-docker-hub .'
               }
             }
-            stage('Login') {
+            stage('Login into DockerHub') {
               steps {
                 sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
               }
             }
-            stage('Push') {
+            stage('Push to DockerHub') {
               steps {
                 sh 'docker push docker685/jenkins-docker-hub'
               }
             }
-          }
+
 //         stage("Building Docker Image"){
 //             steps{
 //                 script{
