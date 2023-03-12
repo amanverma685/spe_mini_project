@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d3a49af-73c5-41e0-a7a0-b1ef06a38380" name="Changes" comment="spe_mini_project- included target file">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0d3a49af-73c5-41e0-a7a0-b1ef06a38380" name="Changes" comment="spe_mini_project- README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <updated>1677731308922</updated>
       <workItem from="1677731310045" duration="2053000" />
       <workItem from="1678597513528" duration="1210000" />
-      <workItem from="1678602669803" duration="6271000" />
+      <workItem from="1678602669803" duration="8292000" />
     </task>
     <task id="LOCAL-00001" summary="spe_mini_project">
       <created>1677733183174</created>
@@ -121,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678615215475</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="spe_mini_project- README.md">
+      <created>1678615451982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678615451982</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spe_mini_project" />
     <MESSAGE value="spe_mini_project- included target file" />
-    <option name="LAST_COMMIT_MESSAGE" value="spe_mini_project- included target file" />
+    <MESSAGE value="spe_mini_project- README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="spe_mini_project- README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

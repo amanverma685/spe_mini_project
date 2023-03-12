@@ -18,7 +18,7 @@ pipeline{
         	steps{
             	echo 'This is job building stage'
             	//maven clean and install command to build the target folder
-            	sh "cd spe_mini_project; mvn clean install"
+            	sh "mvn clean install"
             }
         }
         // stage('Run code'){
@@ -32,7 +32,7 @@ pipeline{
             steps{
                 script{
                     // dockerImage = docker.build registry + ":latest"
-                    dockerImage = docker.build("spe_mini_proj_scientific_calc:latest", "./spe_mini_project")
+                    dockerImage = docker.build("spe_mini_proj_scientific_calc:latest", ".")
                 }
             }
         }
@@ -42,7 +42,6 @@ pipeline{
                     withCredentials([string(credentialsId: 'dockerhub_pwd', variable: 'dockerhub_pwd')]) {
                         // some block
                         sh "docker login -u docker685 -p [;,$j8q_xAR6YVw"
-                        // sh "docker tag d537ae05f8eb kayrohit/scientific_calc:latest"
                         sh "docker push docker685/spe_mini_proj_scientific_calc:latest"
                     }
                 }
