@@ -28,16 +28,22 @@ pipeline{
                 sh 'docker build -t docker685/jenkins-docker-hub .'
               }
             }
-            stage('Login into DockerHub') {
+        stage('Login into DockerHub') {
               steps {
                 sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
               }
             }
-            stage('Push to DockerHub') {
+        stage('Push to DockerHub') {
               steps {
                 sh 'docker push docker685/jenkins-docker-hub'
               }
             }
+        stage('Delete Docker Image from Local'){
+                steps {
+                    sh 'docker rmi docker685/jenkins-docker-hub'
+                }
+            }
+
 
         stage("Ansible Deploy"){
             steps{
