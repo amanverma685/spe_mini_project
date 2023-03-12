@@ -41,7 +41,8 @@ pipeline{
 
         stage("Ansible Deploy"){
             steps{
-                ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'plybk.yml'
+//                 ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'plybk.yml'
+                    sh "ansible-playbook -i inventory plybk.yml"
             }
         }
     }
