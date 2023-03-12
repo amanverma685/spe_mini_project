@@ -39,32 +39,6 @@ pipeline{
               }
             }
 
-//         stage("Building Docker Image"){
-//             steps{
-//                 script{
-//                     // dockerImage = docker.build registry + ":latest"
-//                     dockerImage = docker.build("docker685/spe_mini_proj_scientific_calc:latest", "./")
-//                 }
-//             }
-//         }
-//         stage("Deploy out Image to DockerHub"){
-//             steps{
-//                 script{
-//                     withCredentials([string(credentialsId: 'dockerhub_pwd', variable: 'dockerhub_pwd')]) {
-//                         // some block
-//                         sh "docker login -u docker685 -p [;,$j8q_xAR6YVw"
-//                         sh "docker push docker685/spe_mini_proj_scientific_calc:latest"
-//                     }
-//                 }
-//             }
-//         }
-//
-//         stage("Delete Docker Image from local system"){
-//             steps{
-//                 sh "docker rmi docker685/spe_mini_proj_scientific_calc:latest"
-//             }
-//         }
-
         stage("Ansible Deploy"){
             steps{
                 ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'plybk.yml'
