@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d3a49af-73c5-41e0-a7a0-b1ef06a38380" name="Changes" comment="spe_mini_project- README.md">
+    <list default="true" id="0d3a49af-73c5-41e0-a7a0-b1ef06a38380" name="Changes" comment="spe_mini_project- github repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
@@ -85,7 +85,7 @@
       <updated>1677731308922</updated>
       <workItem from="1677731310045" duration="2053000" />
       <workItem from="1678597513528" duration="1210000" />
-      <workItem from="1678602669803" duration="8292000" />
+      <workItem from="1678602669803" duration="8871000" />
     </task>
     <task id="LOCAL-00001" summary="spe_mini_project">
       <created>1677733183174</created>
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678615451982</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spe_mini_project- github repo">
+      <created>1678617529506</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678617529506</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +157,8 @@
     <MESSAGE value="spe_mini_project" />
     <MESSAGE value="spe_mini_project- included target file" />
     <MESSAGE value="spe_mini_project- README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="spe_mini_project- README.md" />
+    <MESSAGE value="spe_mini_project- github repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="spe_mini_project- github repo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
