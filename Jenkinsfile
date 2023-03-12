@@ -28,11 +28,11 @@ pipeline{
         //         }
         //     }
         // }
-        stage("Building our Image"){
+        stage("Building Docker Image"){
             steps{
                 script{
                     // dockerImage = docker.build registry + ":latest"
-                    dockerImage = docker.build("docker685/spe_mini_proj_scientific_calc:latest", ".")
+                    dockerImage = docker.build("docker685/spe_mini_proj_scientific_calc:latest", "./")
                 }
             }
         }

@@ -85,7 +85,7 @@
       <updated>1677731308922</updated>
       <workItem from="1677731310045" duration="2053000" />
       <workItem from="1678597513528" duration="1210000" />
-      <workItem from="1678602669803" duration="8871000" />
+      <workItem from="1678602669803" duration="8938000" />
     </task>
     <task id="LOCAL-00001" summary="spe_mini_project">
       <created>1677733183174</created>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678617529506</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="spe_mini_project- github repo">
+      <created>1678618036647</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678618036647</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
