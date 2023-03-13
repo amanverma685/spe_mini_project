@@ -1,9 +1,6 @@
 pipeline{
 
     environment{
-	    registry="docker685/docker_repo_spe"
-	    registryCredential="[;,$j8q_xAR6YVw"
-	    dockerImage=""
         DOCKERHUB_CREDENTIALS = credentials('dockerhub')
 
 	}
