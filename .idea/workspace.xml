@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d3a49af-73c5-41e0-a7a0-b1ef06a38380" name="Changes" comment="spe_mini_project- added shaded jar plugin" />
+    <list default="true" id="0d3a49af-73c5-41e0-a7a0-b1ef06a38380" name="Changes" comment="spe_mini_project- added shaded jar plugin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops_calculator.log" beforeDir="false" afterPath="$PROJECT_DIR$/devops_calculator.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +29,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -98,7 +108,10 @@
       <workItem from="1679330431967" duration="4000" />
       <workItem from="1679330444991" duration="5000" />
       <workItem from="1679331052187" duration="629000" />
-      <workItem from="1679378836521" duration="960000" />
+      <workItem from="1679378836521" duration="4588000" />
+      <workItem from="1679384156502" duration="464000" />
+      <workItem from="1679384864035" duration="214000" />
+      <workItem from="1679385465645" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="spe_mini_project">
       <created>1677733183174</created>
@@ -212,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679379316574</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="spe_mini_project- added shaded jar plugin">
+      <created>1679379837183</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679379837183</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
