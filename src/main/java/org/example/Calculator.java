@@ -34,6 +34,7 @@ public class Calculator {
                     System.out.println("Factorial of "+number1+" is : " + calculator.factorial(number1));
                     System.out.println("\n");
 
+
                     break;
                 case 2:
                     // Square root
