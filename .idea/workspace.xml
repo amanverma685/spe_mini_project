@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d3a49af-73c5-41e0-a7a0-b1ef06a38380" name="Changes" comment="spe_mini_project- removed docker image from local">
-      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devops_calculator.log" beforeDir="false" afterPath="$PROJECT_DIR$/devops_calculator.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="0d3a49af-73c5-41e0-a7a0-b1ef06a38380" name="Changes" comment="spe_mini_project- added shaded jar plugin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +98,7 @@
       <workItem from="1679330431967" duration="4000" />
       <workItem from="1679330444991" duration="5000" />
       <workItem from="1679331052187" duration="629000" />
-      <workItem from="1679378836521" duration="447000" />
+      <workItem from="1679378836521" duration="960000" />
     </task>
     <task id="LOCAL-00001" summary="spe_mini_project">
       <created>1677733183174</created>
@@ -212,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678624085602</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="spe_mini_project- added shaded jar plugin">
+      <created>1679379316574</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679379316574</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +237,8 @@
     <MESSAGE value="spe_mini_project- github repo" />
     <MESSAGE value="spe_mini_project- inventory file update" />
     <MESSAGE value="spe_mini_project- removed docker image from local" />
-    <option name="LAST_COMMIT_MESSAGE" value="spe_mini_project- removed docker image from local" />
+    <MESSAGE value="spe_mini_project- added shaded jar plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="spe_mini_project- added shaded jar plugin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
