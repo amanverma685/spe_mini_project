@@ -5,3 +5,5 @@ Scientific Calculator using Devops
 #### add ngrok url to jenkins -> manage jenkins -> configure system
 #### add same url to github webhook 
 #### run -- sudo chmod 666 /var/run/docker.sock
+#### docker stop <container_id>
+#### sudo docker  start -ai <container_name>
