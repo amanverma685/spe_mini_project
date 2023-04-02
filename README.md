@@ -7,3 +7,4 @@ Scientific Calculator using Devops
 #### run -- sudo chmod 666 /var/run/docker.sock
 #### docker stop <container_id>
 #### sudo docker  start -ai <container_name>
+#### sudo cp <container_name>:<file_name> .
