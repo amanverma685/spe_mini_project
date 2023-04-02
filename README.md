@@ -8,3 +8,4 @@ Scientific Calculator using Devops
 #### docker stop <container_id>
 #### sudo docker  start -ai <container_name>
 #### sudo cp <container_name>:<file_name> .
+####  docker exec -a -i <container_id>
