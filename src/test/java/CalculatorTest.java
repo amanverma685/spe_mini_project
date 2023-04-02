@@ -7,6 +7,7 @@ public class CalculatorTest {
     private static final double DELTA = 1e-15;
     Calculator calculator = new Calculator();
 
+    
     @Test
     public void factorialTruePositive(){
         assertEquals("Finding factorial of a number for True Positive", 720, calculator.fact(6), DELTA);
